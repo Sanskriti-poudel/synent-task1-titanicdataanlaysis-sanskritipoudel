@@ -1,8 +1,11 @@
 Titanic Dataset – Data Cleaning & Preprocessing
-Problem Statement
+
+Problem Statement:
+
 The goal of this task is to clean and preprocess the Titanic dataset so that it becomes suitable for further analysis or building machine learning models. The dataset contains missing values, inconsistent data types, and unnecessary columns, which need to be handled properly.
 
-Dataset Details
+Dataset Details:
+
 The dataset used is the Titanic dataset, which contains information about passengers such as:
 Passenger ID
 Name
@@ -14,7 +17,8 @@ Cabin
 Embarked location
 Survival status
 
-Approach
+Approach:
+
 1. Loading and Exploring Data
 Imported required libraries like pandas and numpy
 Loaded dataset using read_csv()
@@ -43,9 +47,9 @@ Survived → Survival_Status
 Pclass → Ticket_Class
 Name → Passenger_Name
 Sex → Gender
-Results
 
-After preprocessing:
+Results:
+
 All missing values were handled properly
 Unnecessary column (Cabin) was removed
 Data types were corrected
